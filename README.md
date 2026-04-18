@@ -42,9 +42,6 @@ taskmanager/
 │   │   ├── schemas/
 │   │   │   ├── user.py        # Pydantic schemas for users
 │   │   │   └── task.py        # Pydantic schemas for tasks
-│   │   ├── tests/
-│   │   │   └── test_main.py   # Pytest test suite
-│   │   └── main.py            # FastAPI app entry point
 │   ├── requirements.txt
 │   ├── pytest.ini
 │   ├── Dockerfile
@@ -135,16 +132,6 @@ Open **http://localhost:8000/docs** for the Swagger UI.
 
 ---
 
-## Running Tests
-
-```bash
-cd backend
-pytest
-```
-
-The test suite uses an in-memory SQLite test database (auto-created and destroyed per test session).
-
----
 
 ## Docker
 
