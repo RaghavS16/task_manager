@@ -2,8 +2,6 @@
 
 A full-stack Task Manager built with **FastAPI** (backend) and plain **HTML/CSS/JS** (frontend). Features JWT authentication, SQLite/PostgreSQL support, pagination, and filtering.
 
-**Live Demo:** _https://your-deployment-url.onrender.com_  
-**API Docs:** _https://your-deployment-url.onrender.com/docs_
 
 ---
 
